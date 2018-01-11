@@ -33,7 +33,7 @@ $(document).ready(function() {
 	for ( var i = 0;  i < arrayPhone.length; i++) {
 
 		newHTML.push(arrayPhone[i].sizeScreen());
-		}
-		$(".element").text(newHTML.join(""));
-
+		
+	}
+	
 });
