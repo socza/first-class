@@ -26,14 +26,17 @@ $(document).ready(function() {
 	
 	var OnePlus = new Phone("DigRepair", 300, "black", "'5.6");
 	OnePlus.printInfo();
+
+	var Sagem = new Phone("Sagem", 100, "pink", "'3.6");
+	Sagem.printInfo();
 	
-	var arrayPhone = [iPhone6S, SamsungGalaxyS6, OnePlus];
+	var arrayPhone = [iPhone6S, SamsungGalaxyS6, OnePlus, Sagem];
 	var newHTML = [];
 
 	for ( var i = 0;  i < arrayPhone.length; i++) {
 
-		newHTML.push(arrayPhone[i].sizeScreen());
+			newHTML.push(arrayPhone[i].sizeScreen());
 		
-	}
+		}
 	
 });
